@@ -1,0 +1,32 @@
+{
+    "dataset_path": [
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_5000_6000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_6000_7000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_7000_8000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_8000_9000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_9000_10000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_10000_11000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_11000_12000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_12000_13000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_13000_14000.hdf5",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_14000_15000.hdf5"
+    ],
+    "hdf5_keys": [
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_5000_6000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_6000_7000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_7000_8000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_8000_9000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_9000_10000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_10000_11000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_11000_12000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_12000_13000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_13000_14000_keys.json",
+        "/home/mfu/dataset/droid_sharded/r2d2_seg_14000_15000_keys.json"
+    ],
+    "epi_len_mapping_json": "config/data_config/droid/epi_len_mapping.json",
+    "verb_to_episode": "config/data_config/droid/verb_to_episode.json",
+    "train_split": 0.95,
+    "action_keys": ["action/cartesian_position", "action/gripper_position"],
+    "image_keys" : ["observation/exterior_image_1_left","observation/wrist_image_left"],
+    "proprio_keys": ["observation/cartesian_position", "observation/gripper_position"]
+}

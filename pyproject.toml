@@ -1,0 +1,25 @@
+[project]
+name = "icrt"
+version = "0.1.0"
+
+dependencies=[
+    "Pillow",
+    "opencv-python",
+    "tqdm", 
+    "tensorboard",
+    "diffusers",
+    "scipy",
+    "timm",
+    "matplotlib", 
+    "tyro", 
+    "loralib",
+    "h5py",
+    "wandb",
+    "mediapy",
+    "kinpy",
+    "imgviz",
+]
+
+requires-python = ">=3.9"
+[tool.setuptools.packages.find]
+include = ["icrt"]

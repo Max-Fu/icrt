@@ -1,0 +1,1 @@
+{"dim": 1024, "multiple_of": 256, "n_heads": 16, "n_layers": 24, "norm_eps": 1e-05, "vocab_size": -1}

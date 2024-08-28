@@ -1,0 +1,53 @@
+{
+    "ratios" : {
+        "drawer" : 0.8, 
+        "push" : 0.8, 
+        "poke" : 1.5, 
+        "pick_up" : 0.8, 
+        "pick_place" : 2.5, 
+        "stacking" : 2.5
+    }, 
+    "tasks": {
+        "drawer" : [
+            "2024-05-31-open-drawer", 
+            "2024-05-31-close-drawer" 
+        ], 
+        "push" : [
+            "2024-05-31-push-green-block-to-red", 
+            "2024-05-31-push-red-pen-to-blue-pen", 
+            "2024-05-31-push-blue-pen-to-red-pen"
+        ], 
+        "poke" : [
+            "2024-05-31-poke-block", 
+            "2024-05-31-push-blue-cube", 
+            "2024-06-01-poke-tiger",
+            "2024-06-04-poke-green-triangle",
+            "2024-06-04-poke-grey-bowl"
+        ], 
+        "pick_up" : [
+            "2024-05-31-pickup-potato", 
+            "2024-05-31-closing-tongs", 
+            "2024-05-31-pick-up-green-triangle"
+        ], 
+        "pick_place" : [
+            "2024-05-31-pickplace-deer-greybowl", 
+            "2024-06-02-pick-blue-cube-into-grey-bowl",
+            "2024-06-02-pick-red-cube-into-black-bowl", 
+            "2024-05-31-tiger-to-black-bowl", 
+            "2024-05-31-put-potato-in-bot-to-black-bowl",
+            "2024-06-03-red-ball-in-black-bowl",
+            "2024-06-03-pick-green-triangle-into-pink-bowl",
+            "2024-06-03-pick-red-ball-into-pink-bowl",
+            "2024-06-04-blue-cube-pink-bowl"
+        ], 
+        "stacking" : [
+            "2024-05-31-stack-red-on-green", 
+            "2024-05-31-stack-orange-cup-to-yellow-cup", 
+            "2024-06-02-pick-blue-cube-stack-on-wood-block", 
+            "2024-05-31-orange-cup-into-yellow-cup",
+            "2024-07-03-red-on-cyan",
+            "2024-07-05-yellow-on-black",
+            "2024-07-03-black-on-red"
+        ]
+    }
+}

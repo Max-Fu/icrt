@@ -1,0 +1,14 @@
+{
+    "dataset_path": [
+        "/path/to/r2d2.hdf5"
+    ],
+    "hdf5_keys": [
+        "/path/to/hdf5_keys.json"
+    ],
+    "epi_len_mapping_json": "/path/to/epi_len_mapping_icrl.json",
+    "verb_to_episode": "/path/to/verb_to_episode.json",
+    "train_split": 0.95,
+    "action_keys": ["action/cartesian_position", "action/gripper_position"],
+    "image_keys" : ["observation/exterior_image_1_left","observation/wrist_image_left"],
+    "proprio_keys": ["observation/cartesian_position", "observation/gripper_position"]
+}

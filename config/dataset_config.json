@@ -1,0 +1,17 @@
+{
+    "dataset_path": [
+        "/path/to/merged_data_part1.hdf5", 
+        "/path/to/merged_data_part2.hdf5"
+    ],
+    "hdf5_keys": [
+        "/path/to/merged_data_part1_hdf5_keys.json", 
+        "/path/to/merged_data_part2_hdf5_keys.json"
+    ],
+    "epi_len_mapping_json": "config/data_config/icrt_mt/epi_len_mapping_json.json",
+    "verb_to_episode": "config/data_config/icrt_mt/verb_to_episode.json",
+    "task_grouping" : "config/data_config/icrt_mt/task_grouping.json",
+    "train_split": 0.95,
+    "action_keys": ["action/cartesian_position", "action/gripper_position"],
+    "image_keys" : ["observation/exterior_image_1_left","observation/wrist_image_left"],
+    "proprio_keys": ["observation/cartesian_position", "observation/gripper_position"]
+}
