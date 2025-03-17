@@ -195,7 +195,7 @@ class ICRTWrapper(nn.Module):
                 rot = euler_to_rot_6d(rot)
             action = np.concatenate([action[:, :3], rot, action[:, -1:]], axis=-1)
             if self.args.shared_cfg.use_delta_action:
-                action = convert_delta_action(action[:, None, ...], proprio.numpy().transpose(1, 0, 2)).squeeze()[None, ...]
+                action = convert_delta_action(action[:, None, ...], proprio.numpy().transpose(1, 0, 2)).transpose(1, 0, 2)
                 action = torch.tensor(action).float()
             else:
                 action = torch.tensor(action)[None].float()
